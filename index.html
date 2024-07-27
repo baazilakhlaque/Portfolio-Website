@@ -8,16 +8,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<script>
-		function myFunction() {
-		  var x = document.getElementById("myTopnav");
-		  if (x.className === "topnav") {
-			x.className += " responsive";
-		  } else {
-			x.className = "topnav";
-		  }
-		}
-	</script>
+	
 	<body class="is-preload">
 		
 	
@@ -34,6 +25,10 @@
 						<li><a href="#work">Projects</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
+					<a href="javascript:void(0);" class="icon-navbar" onclick="myFunction()">
+						<i class="fa fa-bars"></i>
+					</a>
+					
 				</nav>
 			</header>
 
@@ -43,7 +38,7 @@
 					<header>
 						<h2>Hi ! I am Baazil Akhlaque</h2>
 					</header>
-					<p>Welcome to my <strong>Portfolio Website!</strong></p>
+					<p>An aspiring <strong>AI Engineer.</strong></p>
 						<a href="#one" class="button style2 down">More</a>
 					</footer>
 				</div>
@@ -84,7 +79,7 @@
 						<div><img src="images/js.jpg" alt="js - Baazil Akhlaque" height="100px" class="icon"></img></div>
 						<div><img src="images/python.jpg" alt="python - Baazil Akhlaque" height="100px" class="icon"></img></div>
 						<div><img src="images/TypeScript.jpg" alt="TypeScript - Baazil Akhlaque" height="100px" class="icon"></img></div>
-						<div><img src="images/Git.jpg" alt="Git - Baazil Akhlaque" height="100px" class="icon"></img></div>
+						<div class="icon-java"><img src="images/Java.jpg" alt="Java - Baazil Akhlaque" height="100px" class="icon"></img></div>
 					</div>
 					</div>
 				</div>
@@ -211,6 +206,16 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				function myFunction() {
+				  var x = document.getElementById("myTopnav");
+				  if (x.className === "topnav") {
+					x.className += " responsive";
+				  } else {
+					x.className = "topnav";
+				  }
+				}
+			</script>
 
 	</body>
 </html>
